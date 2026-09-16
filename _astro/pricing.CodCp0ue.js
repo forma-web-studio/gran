@@ -1,0 +1,1 @@
+var e=(e,t,n,r,i)=>{let a={polishing:[12e3,18e3,`1–2 дня`],coating:[18e3,28e3,`2–3 дня`],interior:[9e3,16e3,`от 6 часов до 2 дней`]},o=a[e]||a.polishing,s=t*3500+n*3e3+r*4500+i*2500,c=({polishing:10,coating:18,interior:7}[e]||10)+t*2+n*3+r*3+i*2,l=c<=8?`около ${c} часов`:c<=16?`1–2 дня`:c<=28?`2–3 дня`:`3–4 дня`;return{from:o[0]+s,to:o[1]+s,time:l}};export{e as t};
